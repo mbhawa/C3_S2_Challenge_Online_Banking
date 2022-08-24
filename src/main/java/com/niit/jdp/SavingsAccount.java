@@ -13,4 +13,11 @@ public class SavingsAccount {
 
     public SavingsAccount() {
     }
+
+    public SavingsAccount(long accountNumber, String accountHolderName, double accountBalance, String status) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.accountBalance = accountBalance;
+        this.status = status;
+    }
 }
