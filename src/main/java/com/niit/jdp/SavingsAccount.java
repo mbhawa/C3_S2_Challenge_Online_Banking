@@ -15,9 +15,9 @@ public class SavingsAccount {
     }
 
     public SavingsAccount(long accountNumber, String accountHolderName, double accountBalance, String status) {
-        this.accountNumber = accountNumber;
-        this.accountHolderName = accountHolderName;
-        this.accountBalance = accountBalance;
-        this.status = status;
+        this.accountNumber = 0l;
+        this.accountHolderName = "";
+        this.accountBalance = 0.0;
+        this.status = "";
     }
 }
