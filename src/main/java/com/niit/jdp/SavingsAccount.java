@@ -11,4 +11,6 @@ public class SavingsAccount {
     double accountBalance;
     String status;
 
+    public SavingsAccount() {
+    }
 }
